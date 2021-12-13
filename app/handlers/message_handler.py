@@ -1,7 +1,7 @@
 from aiogram import types, Dispatcher
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters import Text
-from app.handlers.state.state import Order
+from app.state.state import Order
 
 
 async def size(message: types.Message):
